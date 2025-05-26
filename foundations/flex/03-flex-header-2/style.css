@@ -51,6 +51,8 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 .left{
@@ -62,6 +64,6 @@ ul {
 
 .right, .left{
   display: flex;
-  flex: 1;
+  align-items: center;
   gap: 1em;
 }
